@@ -20,7 +20,7 @@ var exitCode = HostFactory.Run(s =>
 /*
  
 
-for publish to services of pc
+for publish to  local services of your pc
 
 1. copy bin file to another directory of file
 
