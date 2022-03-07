@@ -11,8 +11,8 @@ var exitCode = HostFactory.Run(s =>
         a.WhenStopped(srv => srv.Stop());
     });
     s.RunAsLocalSystem();
-    s.SetServiceName("MusaAdsizService");
-    s.SetDisplayName("Musa Adsiz Service");
+    s.SetServiceName("WindowsServiceTopshelf");
+    s.SetDisplayName("Windows Service Topshelf");
     s.SetDescription("This is the service with topshelf");
 
 });
